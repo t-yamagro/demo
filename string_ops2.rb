@@ -8,6 +8,6 @@ class StringOps2
   end
 
   def prepend(string1, string2)
-    string1.prepend(string2)
+    string2.prepend(string1)
   end
 end
