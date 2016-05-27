@@ -10,3 +10,4 @@ SimpleCov.formatters = [
 SimpleCov.start
 
 require_relative '../string_ops'
+require_relative '../string_ops2'
