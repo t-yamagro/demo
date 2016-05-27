@@ -11,7 +11,7 @@ class StringOps
 #    ""
 #  end
 
-  def_to_swapcase(string)
+  def to_swapcase(string)
     string.swapcase
   end
 end
