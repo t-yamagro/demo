@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe StringOps2 do
-  string_ops = StringOps2.new
+  string_ops2 = StringOps2.new
   input_string = "To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand, And Eternity in an hour./n/n"
 
   describe "#len" do
