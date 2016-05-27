@@ -20,7 +20,7 @@ describe StringOps do
 
   describe "#to_swapcase" do
     it "returns swap case for input_string" do
-      expected_string = "TO SEE A wORLD IN A gRAIN OF sAND, aND A hEAVEN IN A wILD fLOWER, hOLD iNFINITY IN THE PALM OF YOUR HAND, aND eTERNITY IN AN HOUR."
+      expected_string = "tO SEE A wORLD IN A gRAIN OF sAND, aND A hEAVEN IN A wILD fLOWER, hOLD iNFINITY IN THE PALM OF YOUR HAND, aND eTERNITY IN AN HOUR."
       expect(string_ops.to_swapcase(input_string)).to eq(expected_string)
     end
   end
