@@ -27,3 +27,11 @@ describe StringOps2 do
     end
   end
 end
+context "mock response" do
+  it "mocks the response from to_upper" do
+    mocked_response = "This is a mocked to_upper response."
+    mocked_string_ops = double("mocked_string_ops")
+    allow(mocked_string_ops).to receive(:to_upper).and_return(mocked_response)
+    expect(mocked_string_ops.to_upper("any string")).to eq(mocked_response)
+  end
+end
