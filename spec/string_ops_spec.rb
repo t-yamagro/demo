@@ -17,6 +17,13 @@ describe StringOps do
       expect(string_ops.to_lower(input_string)).to eq(expected_string)
     end
   end
+
+  describe "#to_empty" do
+    it "returns empty case for input_string" do
+      expected_string = "To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand, And Eternity in an hour."
+      expect(string_ops.input_string).to eq(expected_string)
+    end
+  end
 end
 context "mock response" do
   it "mocks the response from to_upper" do
