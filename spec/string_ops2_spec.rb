@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe StringOps2 do
   string_ops2 = StringOps2.new
-  input_string = "To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand, And Eternity in an hour.\n\n"
+  input_string = "To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand, And Eternity in an hour.\r\n"
 
   describe "#len" do
     it "returns length for input_string" do
-      expected_length = 134
+      expected_length = 132
       expect(string_ops2.len(input_string)).to eq(expected_length)
     end
   end
