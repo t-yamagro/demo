@@ -1,4 +1,4 @@
-class StringOps
+class StringOps2
   def len(string)
     string.length
   end
