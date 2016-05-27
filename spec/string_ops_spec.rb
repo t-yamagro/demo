@@ -18,10 +18,10 @@ describe StringOps do
     end
   end
 
-  describe "#to_empty" do
-    it "returns empty case for input_string" do
-      expected_string = "To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand, And Eternity in an hour."
-      expect(input_string).to eq(expected_string)
+  describe "#to_swapcase" do
+    it "returns swap case for input_string" do
+      expected_string = "tO SEE A wORLD IN A gRAIN OF sAND, aND A hEAVEN IN A wILD fLOWER, hOLD iNFINITY IN THE PALM OF YOUR HAND, aND eTERNITY IN AN HOUR."
+      expect(string_ops.to_swapcase(input_string)).to eq(expected_string)
     end
   end
 end

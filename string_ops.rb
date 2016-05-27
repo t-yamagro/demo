@@ -7,7 +7,11 @@ class StringOps
     string.downcase
   end
 
-  def to_empty(string)
-    ""
+#  def to_empty(string)
+#    ""
+#  end
+
+  def_to_swapcase(string)
+    string.swapcase
   end
 end
